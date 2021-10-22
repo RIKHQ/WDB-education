@@ -1,0 +1,170 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.absolute {
+  position: absolute;
+  top: 2290px;
+  right:560;
+  width: 160px;
+  height: 100px;
+}
+
+.absolute2 {
+  position: absolute;
+  top: 2673px;
+  right:824;
+  width: 66.6px;
+  height: 66.6px;
+}
+
+.absolute3 {
+  position: absolute;
+  top: 2673px;
+  right:700;
+  width: 66.6px;
+  height: 66.6px;
+}
+
+.absolute4 {
+  position: absolute;
+  top: 2750px;
+  right:700;
+  width: 66.6px;
+  height: 66.6px;
+}
+
+.absolute5 {
+  position: absolute;
+  top: 2750px;
+  right:824;
+  width: 66.6px;
+  height: 66.6px;
+}
+
+.absolute6 {
+  position: absolute;
+  top: 2671px;
+  right:760;
+  width: 66.6px;
+  height: 165.6px;
+}
+
+.absolute7 {
+  position: absolute;
+  top: 2720px;
+  right:700;
+  width: 190px;
+  height: 66.6px;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.ninevert {
+  height: 11.1%;
+}
+
+.sixvert {
+  height: 16.6%;
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
